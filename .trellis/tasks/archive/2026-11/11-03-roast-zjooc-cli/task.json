@@ -1,0 +1,43 @@
+{
+  "id": "roast-zjooc-cli",
+  "name": "roast-zjooc-cli",
+  "title": "ZJOOC course completion CLI",
+  "description": "Complete and verify supported course chapters with a Rich CLI, uv, and Trellis project records.",
+  "status": "completed",
+  "dev_type": "backend",
+  "scope": null,
+  "package": null,
+  "priority": "P1",
+  "creator": "roast-zjooc",
+  "assignee": "roast-zjooc",
+  "createdAt": "2026-11-03",
+  "completedAt": "2026-11-04",
+  "branch": null,
+  "base_branch": null,
+  "worktree_path": null,
+  "commit": "9f12bffe282fefd75696d7ff80f51aa49e21f0bd",
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": null,
+  "relatedFiles": [
+    "src/roast_zjooc/",
+    "tests/test_roast_zjooc.py",
+    ".python-version",
+    "pyproject.toml",
+    "uv.lock",
+    "README.md",
+    "LICENSE",
+    "AGENTS.md",
+    ".gitignore",
+    ".gitattributes"
+  ],
+  "notes": "Replaces the bootstrap placeholder. The user authorized task registration, task documents, and guideline corrections on 2026-11-03.",
+  "meta": {
+    "origin": "Existing CLI implemented before Trellis task registration",
+    "implementationDate": "2026-11-02",
+    "liveValidation": "Not performed during project normalization",
+    "qualityGate": "Final review passed. All 97 offline tests, strict Pyright, Ruff lint and format, lock validation, offline build, both entrypoints, terminal output, and task validation pass. The corrected source distribution excludes agent tools and session records. Generated caches were removed. No spec change or live account request occurred.",
+    "commitState": "The user approved all four planned commits. Signed infrastructure commit: 4fac4d765794e7b0b52df2683cfbf642493240cd. Signed CLI commit: 9f12bffe282fefd75696d7ff80f51aa49e21f0bd."
+  }
+}

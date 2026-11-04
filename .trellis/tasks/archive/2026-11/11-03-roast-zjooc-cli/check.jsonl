@@ -1,0 +1,11 @@
+{"file":".trellis/spec/engineering/architecture.md","reason":"Verify the single-module workflow without redundant classes or layer boundaries."}
+{"file":".trellis/spec/engineering/data-contracts.md","reason":"Check external JSON types and controlled failure behavior."}
+{"file":".trellis/spec/engineering/errors-and-logging.md","reason":"Check cause preservation and safe Rich diagnostics."}
+{"file":".trellis/spec/engineering/testing.md","reason":"Reject prose assertions and confirm HTTP isolation."}
+{"file":".trellis/spec/ui/design.md","reason":"Check final terminal content, duplicate facts, and actual interaction."}
+{"file":".trellis/spec/build/runtime-artifacts.md","reason":"Validate the final package artifacts under one owner."}
+{"file":".trellis/spec/languages/python.md","reason":"Require strict type checks without bypasses."}
+{"file":".trellis/spec/guides/tool-use.md","reason":"Use file tools for corrections."}
+{"file":".trellis/spec/guides/writing.md","reason":"Review project documents against current behavior."}
+{"file":".trellis/tasks/archive/2026-11/11-03-roast-zjooc-cli/research/input-validation-review.md","reason":"Verify accepted normalization cases and preserve actual credential scope and required failures."}
+{"file":".trellis/tasks/archive/2026-11/11-03-roast-zjooc-cli/research/validation-test-audit.md","reason":"Verify accepted field normalization and distinct ownership of protocol and workflow tests."}

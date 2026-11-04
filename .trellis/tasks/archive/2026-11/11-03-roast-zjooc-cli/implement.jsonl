@@ -1,0 +1,12 @@
+{"file":".trellis/spec/engineering/architecture.md","reason":"Keep existing module ownership and avoid speculative layers."}
+{"file":".trellis/spec/engineering/data-contracts.md","reason":"Validate external JSON before application use."}
+{"file":".trellis/spec/engineering/errors-and-logging.md","reason":"Preserve causes and protect cookie values."}
+{"file":".trellis/spec/engineering/testing.md","reason":"Use observable contracts and isolated offline tests."}
+{"file":".trellis/spec/ui/design.md","reason":"Keep each terminal fact in one display owner and inspect the actual render."}
+{"file":".trellis/spec/languages/python.md","reason":"Apply strict types and public contract documentation."}
+{"file":".trellis/spec/build/dependencies.md","reason":"Declare and lock development dependencies."}
+{"file":".trellis/spec/build/runtime-artifacts.md","reason":"Remove generated caches after final verification without affecting active files."}
+{"file":".trellis/spec/guides/tool-use.md","reason":"Use file patches and preserve local data."}
+{"file":".trellis/spec/guides/writing.md","reason":"Use the required document language and precise current contracts."}
+{"file":".trellis/tasks/archive/2026-11/11-03-roast-zjooc-cli/research/input-validation-review.md","reason":"Apply the five accepted input simplifications without weakening required request boundaries."}
+{"file":".trellis/tasks/archive/2026-11/11-03-roast-zjooc-cli/research/validation-test-audit.md","reason":"Remove unused-field restrictions and duplicated tests while retaining distinct observable contracts."}
