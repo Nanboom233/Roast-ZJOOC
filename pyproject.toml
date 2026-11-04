@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "roast-zjooc"
+version = "0.1.0"
+description = "Complete ZJOOC chapter resources and verify server progress."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28,<1",
+    "rich>=14,<15",
+]
+
+[project.scripts]
+roast-zjooc = "roast_zjooc.cli:main"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.400,<2",
+    "pytest>=8,<10",
+    "ruff>=0.11,<1",
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "pyproject.toml", "README.md", "LICENSE", "uv.lock", ".python-version"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py314"
+line-length = 100
+extend-exclude = [".trellis", ".codex", ".agents"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+# Keep the Optional and Union syntax required by the Python guideline.
+ignore = ["UP007", "UP045"]
+
+[tool.pyright]
+include = ["src", "tests"]
+typeCheckingMode = "strict"
+pythonVersion = "3.14"
+venvPath = "."
+venv = ".venv"
