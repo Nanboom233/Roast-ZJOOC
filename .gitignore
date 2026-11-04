@@ -1,0 +1,12 @@
+.venv/
+.DS_Store
+.trellis/.template-hashes.json
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+cookies*
+cookie*
+storage-state*.json
+.env

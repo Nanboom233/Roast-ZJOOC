@@ -1,0 +1,2 @@
+# Merge independent journal entries without replacing either entry.
+.trellis/workspace/*/journal-*.md merge=union
