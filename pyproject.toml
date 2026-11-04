@@ -26,7 +26,7 @@ dev = [
 ]
 
 [tool.hatch.build.targets.sdist]
-include = ["src", "tests", "pyproject.toml", "README.md", "LICENSE", "uv.lock", ".python-version"]
+include = ["src", "tests", "assets/preview.png", "pyproject.toml", "README.md", "LICENSE", "uv.lock", ".python-version"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
